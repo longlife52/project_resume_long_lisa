@@ -17,3 +17,13 @@ html {
 }
 
 * html .group
+
+/* Body Styles */
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
