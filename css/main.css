@@ -8,6 +8,11 @@ html {
     box-sizing: inherit;
 }
 
+/* Body Styles */
+body {
+    background-color: #f5f5f5;
+}
+
 /* Clear Fix */
 
 /* add the class .group in html to floated elements */
@@ -18,11 +23,6 @@ html {
 }
 
 * html .group
-
-/* Body Styles */
-body {
-    background-color: #fafafa;
-}
 
 .container {
     margin: auto;
@@ -41,7 +41,12 @@ p {
 }
 
 header h1,
-h2,
-p {
+header h2,
+header p {
     text-align: center;
+}
+
+/* so mmenu remains hidden until document loads */
+#my-menu:not( .mm-menu ) {
+    display: none;
 }
