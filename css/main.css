@@ -9,6 +9,7 @@ html {
 }
 
 /* Clear Fix */
+
 /* add the class .group in html to floated elements */
 .group::after {
     content: '';
