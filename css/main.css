@@ -38,6 +38,7 @@ h6,
 p {
     font-family: 'proxima-nova', sans-serif;
     color: #0f375a;
+    padding-left: 1em;
 }
 
 header h1,
@@ -49,4 +50,9 @@ header p {
 /* so mmenu remains hidden until document loads */
 #my-menu:not( .mm-menu ) {
     display: none;
+}
+
+
+main {
+    background-color: red;
 }
