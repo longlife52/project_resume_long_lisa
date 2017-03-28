@@ -9,4 +9,10 @@ $(document).ready(function () {
         }
     });
 
+    var API = $('#my-menu').data('mmenu');
+
+    $('#menu-button').click(function () {
+        API.open();
+    });
+
 });
