@@ -56,3 +56,12 @@ header p {
 main {
     background-color: red;
 }
+
+footer ul li {
+    display: inline;
+    font-size: 0.5em;
+}
+
+footer {
+    text-align: center;
+}
