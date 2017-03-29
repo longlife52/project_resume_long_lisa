@@ -77,6 +77,10 @@ header p {
     border: solid 0.625em #c38e59;
 }
 
+.round-image:hover {
+    box-shadow: 0.325em 0.325em #5e9ba6;
+}
+
 #employment,
 #contact {
     background-color: #0f375a;
