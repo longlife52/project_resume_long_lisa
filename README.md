@@ -18,6 +18,8 @@ Researched jQuery api called "one"[here](http://api.jquery.com/one/)to get my cu
 
 Reviewed Box-Shadow[here.](https://www.w3schools.com/css/css3_shadows.asp)
 
+I used an easy jQuery plugin called [Flip.](https://nnattawat.github.io/flip/) It did not work from the .min.js file. However, it did work with the link for the code.
+
 []()
 
 ## Deductions
