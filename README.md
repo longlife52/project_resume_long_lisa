@@ -8,7 +8,10 @@
 
 ## Resources
 [Here's mmenu](http://mmenu.frebsite.nl/) which is the jQuery plug in that I used to create the sliding menu.
-[] ()
+
+I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to easily create a fixed button that when clicked returns the user to the top of the page.
+
+[]()
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
