@@ -20,6 +20,8 @@ Reviewed Box-Shadow[here.](https://www.w3schools.com/css/css3_shadows.asp)
 
 I used an easy jQuery plugin called [Flip.](https://nnattawat.github.io/flip/) It did not work from the .min.js file. However, it did work with the link for the code.
 
+Here's a quick resource for [growing a hover effect.](http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/)
+
 []()
 
 ## Deductions
