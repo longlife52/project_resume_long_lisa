@@ -35,4 +35,22 @@ $(document).ready(function () {
         scrollText: 'Scroll to top', // Text for element
         activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
     });
+
+//my custom code to change my headshot to my logo on a click; does not work, yet
+/*
+    $('#imageOriginal').click(function () {
+        $('img', '#imageOriginal').attr('src', 'img/logosmall.png');
+    });
+
+//my custom code to add text after clicking on the headshot; every click gets a new <p>
+    $('#imageOriginal').click(function () {
+        $('#imageOriginal').after('<p>Producer. Writer. Movement Educator.</p>');
+    });
+});
+*/
+//my custom code to add text after clicking on the headshot; adding one solves it
+    $('#imageOriginal').one('click', function () {
+        $('#imageOriginal').after('<p>Producer. Writer. Movement Educator.</p>');
+    });
+
 });
