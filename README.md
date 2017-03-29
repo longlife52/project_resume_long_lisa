@@ -20,3 +20,4 @@ I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to
 I have reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
+I added my custom jQuery code to the image. On click, words appear beneath the image.
