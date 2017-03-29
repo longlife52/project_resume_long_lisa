@@ -52,9 +52,64 @@ header p {
     display: none;
 }
 
-
 main {
-    background-color: red;
+    margin-top: 5em;
+    background-color: #34738e;
+}
+
+#employment,
+#contact {
+    background-color: #0f375a;
+    padding: 3em 1em 3em 0;
+}
+
+
+
+#employment h3,
+#skills h3,
+#awards h3,
+#education h3,
+#contact h3 {
+    text-align: center;
+}
+
+#employment h4,
+#skills h4,
+#education h4 {
+    margin-bottom: -1em;
+}
+
+#employment-content {
+    background-color: #f5f5f5;
+    margin-left: 1em;
+    padding: 2em 1em 2em 0;
+}
+
+#awards,
+#skills,
+#education {
+    color: #0f375a;
+    background-color: #f5f5f5;
+    margin: 1em;
+    padding: 1em 0.325em 1em 0;
+}
+
+#awards ul li {
+    padding-bottom: 1em;
+}
+
+#education p {
+    margin-bottom: -0.625em;
+}
+
+#education p:last-of-type {
+    margin-bottom: 2em;
+}
+
+#contact h3,
+#contact h4,
+#contact p {
+    color: #f5f5f5;
 }
 
 footer ul li {
@@ -64,4 +119,5 @@ footer ul li {
 
 footer {
     text-align: center;
+    color: #0f375a;
 }
