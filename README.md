@@ -1,6 +1,6 @@
 # Project - Resume, Lisa Long
 
-## Github Project Link
+## Project Links
 [Lisa's Project on Github.](https://github.com/longlife52/project_resume_long_lisa)
 
 [Here's the link to my Resume on my web host.]()
