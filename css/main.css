@@ -57,12 +57,15 @@ main {
     background-color: #34738e;
 }
 
+header p {
+    padding-bottom: 2em;
+}
+
 .round-image {
     border-radius: 50%;
     display: block;
     margin: auto;
-    padding-top: 1em;
-    padding-bottom: 0;
+    border: solid 0.625em #c38e59;
 }
 
 #employment,
