@@ -81,6 +81,11 @@ header p {
     box-shadow: 0.325em 0.325em #5e9ba6;
 }
 
+.logoflip {
+    display: block;
+    margin: auto;
+}
+
 #employment,
 #contact {
     background-color: #0f375a;

@@ -42,7 +42,15 @@
             <button id="menu-button">Menu</button>
             <h1>Lisa Long</h1>
             <h2>Ideas Brought to Life</h2>
-                <img src="img/lisaheadshot.png" alt="Lisa Long" title="Lisa Long" id="imageOriginal" class="round-image">
+            <div id="card">
+                <div class="front">
+                    <img src="img/lisaheadshot.png" alt="Lisa Long" title="Lisa Long" id="imageOriginal" class="round-image">
+                </div>
+
+                <div class="back">
+                    <img src="img/logosmall.png" alt="Lisa Long Logo" title="Lisa Long Logo" class="logoflip">
+                </div>
+            </div>
         </header>
 
         <main>
@@ -166,7 +174,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/jquery.mmenu.min.js"></script>
     <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="jquery.flip.js"></script>
+<!-- flip seems to only work when using the link below; downloaded .min file did not work -->
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

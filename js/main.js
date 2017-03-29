@@ -53,4 +53,7 @@ $(document).ready(function () {
         $('#imageOriginal').after('<p>Producer/Writer</p>');
     });
 
+    //Jquery flip
+    $('#card').flip();
+
 });
