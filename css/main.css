@@ -57,6 +57,14 @@ main {
     background-color: #34738e;
 }
 
+.round-image {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
 #employment,
 #contact {
     background-color: #0f375a;
