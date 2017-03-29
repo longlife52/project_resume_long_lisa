@@ -10,11 +10,18 @@ $(document).ready(function () {
         }
     });
 
-    var API = $('#my-menu').data('mmenu');
+    var mainMenu = $('#my-menu').data('mmenu');
 
     $('#menu-button').click(function () {
-        API.open();
+        mainMenu.open();
     });
+/*
+    var contact = $('#contact').data('mmenu');
+
+    $('#contact').click(function () {
+        contact.open();
+    });
+*/
 
 //scrollup - default elements listed - I may change them
     $.scrollUp({
