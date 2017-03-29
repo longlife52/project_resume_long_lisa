@@ -50,7 +50,7 @@ $(document).ready(function () {
 */
 //my custom code to add text after clicking on the headshot; adding one solves it
     $('#imageOriginal').one('click', function () {
-        $('#imageOriginal').after('<p>Producer. Writer. Movement Educator.</p>');
+        $('#imageOriginal').after('<p>Producer/Writer</p>');
     });
 
 });
