@@ -16,6 +16,8 @@ I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to
 
 Researched jQuery api called "one"[here](http://api.jquery.com/one/)to get my custom code to only display on the first click and not subsequent clicks.
 
+Reviewed Box-Shadow[here.](https://www.w3schools.com/css/css3_shadows.asp)
+
 []()
 
 ## Deductions
