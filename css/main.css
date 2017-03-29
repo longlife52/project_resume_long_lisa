@@ -123,6 +123,15 @@ header p {
     color: #f5f5f5;
 }
 
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #c38e59;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
 footer ul li {
     display: inline;
     font-size: 0.5em;
