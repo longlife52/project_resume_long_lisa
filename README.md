@@ -14,6 +14,8 @@
 
 I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to easily create a fixed button that when clicked returns the user to the top of the page.
 
+Researched jQuery api called "one"[here](http://api.jquery.com/one/)to get my custom code to only display on the first click and not subsequent clicks.
+
 []()
 
 ## Deductions
