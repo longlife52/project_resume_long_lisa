@@ -228,8 +228,36 @@ main {
         font-size: 1em;
         padding-left: 0.5em;
     }
-
 */
+    #skills h3,
+    #awards h3,
+    #education h3 {
+        text-align: left;
+        padding-left: 0.25em;
+        font-size: 1.5em;
+    }
+
+    #awards ul li {
+        padding: 1em 0 1em 0;
+    }
+
+    #skills {
+        float: left;
+        width: calc(100% / 3);
+        margin: 0.25em;
+    }
+
+    #awards {
+        float: left;
+        width: calc(100% / 3);
+        margin: 0.25em;
+    }
+
+    #education {
+        float: right;
+        width: calc(100% / 3);
+    }
+    /*
     #education {
         float: right;
         width: 50%;
@@ -240,7 +268,7 @@ main {
         width: 50%;
     }
 }
-
+*/
 #scrollUp {
     bottom: 1em;
     right: 1em;
