@@ -16,7 +16,7 @@ body {
 /* add this class to sections to control expansion in responsive design */
 .container {
     margin: auto;
-    max-width: 1000px;
+    max-width: 950px;
 }
 
 /* Clear Fix */
@@ -146,7 +146,7 @@ main p {
 
 main {
     margin-top: 5em;
-    background-color: #34738e;
+    background-color: #5e9ba6;
 }
 
 #employment,
@@ -181,7 +181,11 @@ main {
 #education {
     color: #0f375a;
     background-color: #f5f5f5;
+
+    /*
     margin: 1em;
+*/
+
     padding: 1em 0.325em 1em 0;
 }
 
@@ -194,7 +198,7 @@ main {
 }
 
 #education p:last-of-type {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #contact h3,
@@ -208,12 +212,44 @@ main {
 }
 
 @media (min-width: 750px) {
+
+    #skills {
+        float: left;
+        width: 50%;
+
+    }
+
+    #education {
+        float: right;
+        width: 50%;
+        padding-left: 0.0625em;
+        background-color: #34738e;
+    }
+
+    #education h3,
+    #education h4,
+    #education p {
+        color: #f5f5f5;
+    }
+
     #image-carousel {
         display: block;
     }
 }
 
+/*
 @media (min-width: 950px) {
+    #skills {
+        float: left;
+        width: 50%;
+    }
+
+    #education {
+        float: right;
+        width: 50%;
+    }
+*/
+
 /*
     main h3 {
         font-size: 2em;
@@ -228,7 +264,7 @@ main {
         font-size: 1em;
         padding-left: 0.5em;
     }
-*/
+
     #skills h3,
     #awards h3,
     #education h3 {
@@ -243,21 +279,14 @@ main {
 
     #skills {
         float: left;
+        padding: 1em;
         width: calc(100% / 3);
-        margin: 0.25em;
-    }
-
-    #awards {
-        float: left;
-        width: calc(100% / 3);
-        margin: 0.25em;
     }
 
     #education {
         float: right;
-        width: calc(100% / 3);
     }
-    /*
+
     #education {
         float: right;
         width: 50%;
@@ -269,6 +298,7 @@ main {
     }
 }
 */
+
 #scrollUp {
     bottom: 1em;
     right: 1em;
