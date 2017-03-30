@@ -66,10 +66,10 @@ header p {
     padding-bottom: 2em;
 }
 
-#headerimage {
+#headerimage,
+#awardpix {
     display: none;
 }
-
 
 .round-image {
     border-radius: 50%;
@@ -181,12 +181,18 @@ main {
 #education {
     color: #0f375a;
     background-color: #f5f5f5;
+}
 
-    /*
-    margin: 1em;
-*/
+#skills {
+    padding: 1em 0.325em 1.2em 0;
+}
 
+#education {
     padding: 1em 0.325em 1em 0;
+}
+
+#awards {
+    padding: 1em 0.325em 1 em 0;
 }
 
 #awards ul li {
@@ -216,7 +222,6 @@ main {
     #skills {
         float: left;
         width: 50%;
-
     }
 
     #education {
@@ -232,10 +237,27 @@ main {
         color: #f5f5f5;
     }
 
-    #image-carousel {
+    #image-carousel,
+    #awardpix {
         display: block;
     }
+
+    #awardpix img {
+        width: 100%;
+    }
+
+    #awardpix {
+        float: left;
+        width: 50%;
+    }
+
+    #awards {
+        float: right;
+        width: 50%;
+    }
 }
+
+
 
 /*
 @media (min-width: 950px) {
