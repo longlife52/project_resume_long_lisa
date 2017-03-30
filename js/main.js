@@ -66,4 +66,11 @@ $(document).ready(function () {
     //slippry image carousel
     $('#slippryImages').slippry();
 
+    //backstretch image slideshow
+    $('.backstretch-show').backstretch([
+        {width: 500, url: 'img/clear.png'},
+        {width: 500, url: 'img/strong.png'},
+        {width: 500, url: 'img/vibrant.png'}
+    ], {duration: 4000, fade: 750});
+
 });
