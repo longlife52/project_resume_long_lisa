@@ -56,4 +56,8 @@ $(document).ready(function () {
     //Jquery flip
     $('#card').flip();
 
+    //owlcarousel
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel();
+    });
 });
