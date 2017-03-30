@@ -22,6 +22,8 @@ I used an easy jQuery plugin called [Flip.](https://nnattawat.github.io/flip/) I
 
 Here's a quick resource for [growing a hover effect.](http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/)
 
+Here is the jQuery plug in called [Owl Carousel.](https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html)
+
 []()
 
 ## Deductions

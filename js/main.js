@@ -57,7 +57,13 @@ $(document).ready(function () {
     $('#card').flip();
 
     //owlcarousel
-    $(document).ready(function () {
-        $('.owl-carousel').owlCarousel();
-    });
+    $('.owl-carousel').owlCarousel();
+
+
+    //slick image carousel
+    $('.slick-images').slick();
+
+    //slippry image carousel
+    $('#slippryImages').slippry();
+
 });

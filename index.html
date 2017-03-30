@@ -14,6 +14,11 @@
     <!--below is for owl.carousel.js-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- below is for slick -->
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+    <!-- below is for slippry -->
+    <link rel="stylesheet" href="css/slippry.css" />
     <!-- this is for typekit proxima nova + reklame fonts -->
     <script src="https://use.typekit.net/zrg4qwo.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -59,25 +64,22 @@
                     </div>
                 </div>
             </div>
-            <div id="headerimage" class="owl-carousel owl-theme group">
+            <div id="headerimage" class="group">
+                <ul id="slippryImages">
+                    <li>
+                        <img src="img/clear.png" alt="clear ideas" title="clear ideas">
+                    </li>
+                    <li>
+                        <img src="img/vibrant.png" alt="vibrant writing" title="vibrant writing">
+                    </li>
+                    <li>
+                        <img src="img/strong.png" alt="strong" title="strong">
+                    </li>
+                </ul>
+            </div>
+<!--
+            <div id="headerimage" class="slick-images group">
                 <div>
-                    <img src="img/clear.png" alt="clear ideas" title="clear ideas">
-                </div>
-                <div>
-                    <img src="img/vibrant.png" alt="vibrant writing" title="vibrant writing">
-                </div>
-                <div>
-                    <img src="img/strong.png" alt="strong" title="strong">
-                </div>
-                <div>
-                    <img src="img/clear.png" alt="clear ideas" title="clear ideas">
-                </div>
-                <div>
-                    <img src="img/vibrant.png" alt="vibrant writing" title="vibrant writing">
-                </div>
-                <div>
-                    <img src="img/strong.png" alt="strong" title="strong">
-                </div><div>
                     <img src="img/clear.png" alt="clear ideas" title="clear ideas">
                 </div>
                 <div>
@@ -87,6 +89,9 @@
                     <img src="img/strong.png" alt="strong" title="strong">
                 </div>
             </div>
+-->
+
+
         </header>
 
         <main>
@@ -198,6 +203,35 @@
             </section>
         </main>
 
+        <div id="image-carousel" class="owl-carousel owl-theme group">
+            <div>
+                <img src="img/clear.png" alt="clear ideas" title="clear ideas">
+            </div>
+            <div>
+                <img src="img/vibrant.png" alt="vibrant writing" title="vibrant writing">
+            </div>
+            <div>
+                <img src="img/strong.png" alt="strong" title="strong">
+            </div>
+            <div>
+                <img src="img/clear.png" alt="clear ideas" title="clear ideas">
+            </div>
+            <div>
+                <img src="img/vibrant.png" alt="vibrant writing" title="vibrant writing">
+            </div>
+            <div>
+                <img src="img/strong.png" alt="strong" title="strong">
+            </div><div>
+                <img src="img/clear.png" alt="clear ideas" title="clear ideas">
+            </div>
+            <div>
+                <img src="img/vibrant.png" alt="vibrant writing" title="vibrant writing">
+            </div>
+            <div>
+                <img src="img/strong.png" alt="strong" title="strong">
+            </div>
+        </div>
+
         <footer>
             <ul>
                 <li>&copy; 2017</li>
@@ -211,6 +245,8 @@
     <script src="js/jquery.mmenu.min.js"></script>
     <script src="js/jquery.scrollUp.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slippry.min.js"></script>
 <!-- flip seems to only work when using the link below; downloaded .min file did not work -->
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="js/main.js"></script>
