@@ -249,12 +249,6 @@ main {
     margin: 0.25em;
 }
 
-#contact h3,
-#contact h4,
-#contact p {
-    color: #f5f5f5;
-}
-
 #image-carousel {
     display: none;
 }
@@ -297,6 +291,21 @@ main {
         float: right;
         width: 50%;
     }
+}
+
+#contact h3,
+#contact h4,
+#contact p {
+    color: #f5f5f5;
+}
+
+#contact ul li {
+    display: inline-block;
+
+}
+
+#contact li {
+
 }
 
 #scrollUp {
