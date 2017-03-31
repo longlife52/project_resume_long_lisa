@@ -3,6 +3,14 @@ $(document).ready(function () {
 //mmenu
     $('#my-menu').mmenu({
     // options
+    // preventDefault is needed because href points to # on same page
+    // if menu linked to other pages, would not need to set
+    // preventDefault to false
+    //close: true needed because when did above, only, menu stayed open
+        onClick: {
+            close: true,
+            preventDefault: false
+        }
     }, {
 
     // configuration

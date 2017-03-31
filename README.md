@@ -10,7 +10,7 @@
 [Here's the project on the HTML5 Outliner.]()
 
 ## Resources
-[Here's mmenu](http://mmenu.frebsite.nl/) which is the jQuery plug in that I used to create the sliding menu.
+[Here's mmenu](http://mmenu.frebsite.nl/) which is the jQuery plug in that I used to create the sliding menu. Gratefully, Richard problem solved the following issue: to have the href point/work to a # on the same page, a few onClick options needed to be coded in js file to override the default actions.
 
 I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to easily create a fixed button that when clicked returns the user to the top of the page.
 
