@@ -30,4 +30,4 @@ Here is the jQuery plug in called [Owl Carousel.](https://owlcarousel2.github.io
 I have reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
-I added my custom jQuery code to the image. On click, words appear beneath the image.
+I added my custom jQuery code to my headshot. On click, words appear beneath the image.
