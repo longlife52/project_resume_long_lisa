@@ -301,12 +301,12 @@ main {
 
 #contact ul li {
     display: inline-block;
-
 }
 
-#contact li {
-
+#contact img {
+    width: 100%;
 }
+
 
 #scrollUp {
     bottom: 1em;
