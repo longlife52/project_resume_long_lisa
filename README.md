@@ -26,7 +26,7 @@ Here is the jQuery plug in called [Owl Carousel.](https://owlcarousel2.github.io
 
 Read [this article](https://css-tricks.com/tips-aligning-icons-text/) for tips on aligning my footer icons.
 
-[]()
+Read [this great article](https://css-tricks.com/the-current-state-of-telephone-links/) on the current state of phone links.
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
