@@ -24,6 +24,8 @@ Here's a quick resource for [growing a hover effect.](http://www.webdesignerdepo
 
 Here is the jQuery plug in called [Owl Carousel.](https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html)
 
+Read [this article](https://css-tricks.com/tips-aligning-icons-text/) for tips on aligning my footer icons.
+
 []()
 
 ## Deductions

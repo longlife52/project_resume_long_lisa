@@ -66,6 +66,11 @@ header p {
     padding-bottom: 2em;
 }
 
+/* classes for easier styling; NEW for me to do this! */
+.center-text {
+    text-align: center;
+}
+
 #headerimage {
     display: none;
 }
@@ -242,9 +247,8 @@ main {
 
 #brown-first p {
     font-family: 'verveine', sans-serif;
-    color: #f5f5f5;
     font-size: 3em;
-    text-align: center;
+    color: #f5f5f5;
     padding: 0;
     margin: 0.25em;
 }
@@ -293,20 +297,15 @@ main {
     }
 }
 
-#contact h3,
-#contact h4,
-#contact p {
+#contact h3 {
     color: #f5f5f5;
+    margin: 0;
 }
 
 #contact ul li {
     display: inline-block;
+    padding-right: 3em;
 }
-
-#contact img {
-    width: 100%;
-}
-
 
 #scrollUp {
     bottom: 1em;
@@ -317,13 +316,7 @@ main {
     text-decoration: none;
 }
 
-footer ul li {
-    display: inline;
-    font-size: 0.5em;
-}
-
 footer {
-    text-align: center;
     color: #0f375a;
     padding-bottom: 3em;
 }
