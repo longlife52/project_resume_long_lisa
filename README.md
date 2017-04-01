@@ -10,19 +10,19 @@
 [Here's the project on the HTML5 Outliner.](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.garrisonridge.com%2Fgarrisonridge%2Fproject_resume_long_lisa%2F)
 
 ## Resources
-[Here's mmenu](http://mmenu.frebsite.nl/) which is the jQuery plug in that I used to create the sliding menu. Gratefully, Richard problem solved the following issue: to have the href point/work to a # on the same page, a few onClick options needed to be coded in js file to override the default actions.
+[Here's mmenu](http://mmenu.frebsite.nl/) which is the jQuery plug in that I used to create the sliding menu. The sliding menu is in the upper left of the screen. On click, the menu slides out. Gratefully, Richard problem solved the following issue: to have the href point/work to a # on the same page, a few onClick options needed to be coded in js file to override the default actions.
 
-I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to easily create a fixed button that when clicked returns the user to the top of the page.
+I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to easily create a fixed button that when clicked returns the user to the top of the page. The button sits on the bottom right of the page.
 
 Researched jQuery api called "one" [here](http://api.jquery.com/one/) to get my custom code to only display on the first click and not subsequent clicks.
 
 Reviewed Box-Shadow [here.](https://www.w3schools.com/css/css3_shadows.asp)
 
-I used an easy jQuery plugin called [Flip.](https://nnattawat.github.io/flip/) It did not work from the .min.js file. However, it did work with the link for the code.
+I used an easy jQuery plugin called [Flip.](https://nnattawat.github.io/flip/) It did not work from the .min.js file. However, it did work with the link for the code. Flip is on my headshot. When you click, it flips to show my logo.
 
 Here's a quick resource for [growing a hover effect.](http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/)
 
-Here is the jQuery plug in called [Owl Carousel.](https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html)
+Here is the jQuery plug in called [Owl Carousel.](https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html) I used Owl Carousel at @media (min-width: 750). It shows up mid-page, after the employment section, and displays a series of images with words that describe me as a worker bee.
 
 Read [this article](https://css-tricks.com/tips-aligning-icons-text/) for tips on aligning my footer icons.
 
