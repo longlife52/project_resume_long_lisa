@@ -14,9 +14,9 @@
 
 I used the jQuery plug in [scrollUp](https://markgoodyear.com/labs/scrollup/) to easily create a fixed button that when clicked returns the user to the top of the page.
 
-Researched jQuery api called "one"[here](http://api.jquery.com/one/)to get my custom code to only display on the first click and not subsequent clicks.
+Researched jQuery api called "one"[here](http://api.jquery.com/one/) to get my custom code to only display on the first click and not subsequent clicks.
 
-Reviewed Box-Shadow[here.](https://www.w3schools.com/css/css3_shadows.asp)
+Reviewed Box-Shadow [here.](https://www.w3schools.com/css/css3_shadows.asp)
 
 I used an easy jQuery plugin called [Flip.](https://nnattawat.github.io/flip/) It did not work from the .min.js file. However, it did work with the link for the code.
 
