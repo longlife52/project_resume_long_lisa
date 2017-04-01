@@ -30,6 +30,11 @@ body {
 
 * html .group
 
+/* for html outliner for nav */
+.hide {
+    display: none;
+}
+
 /* h1-h6 and p styles */
 h3,
 h4,
